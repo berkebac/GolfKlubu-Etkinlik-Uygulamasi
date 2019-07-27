@@ -1,0 +1,78 @@
+F:\Yeni klasör\56\56\bin\Debug\56.exe.config
+F:\Yeni klasör\56\56\bin\Debug\Database1.mdf
+F:\Yeni klasör\56\56\bin\Debug\Database1_log.ldf
+F:\Yeni klasör\56\56\bin\Debug\56.exe
+F:\Yeni klasör\56\56\bin\Debug\56.pdb
+F:\Yeni klasör\56\56\obj\Debug\56.csprojResolveAssemblyReference.cache
+F:\Yeni klasör\56\56\obj\Debug\MainWindow.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\GolfKlupleriListesi.g.cs
+F:\Yeni klasör\56\56\obj\Debug\App.g.cs
+F:\Yeni klasör\56\56\obj\Debug\56_Content.g.cs
+F:\Yeni klasör\56\56\obj\Debug\56_MarkupCompile.cache
+F:\Yeni klasör\56\56\obj\Debug\56_MarkupCompile.lref
+F:\Yeni klasör\56\56\obj\Debug\MainWindow.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\GolfKlupleriListesi.baml
+F:\Yeni klasör\56\56\obj\Debug\56.g.resources
+F:\Yeni klasör\56\56\obj\Debug\_56.Properties.Resources.resources
+F:\Yeni klasör\56\56\obj\Debug\56.csproj.GenerateResource.Cache
+F:\Yeni klasör\56\56\obj\Debug\56.exe
+F:\Yeni klasör\56\56\obj\Debug\56.pdb
+F:\Yeni klasör\56\56\obj\Debug\Models\KlupBölümleriListesi.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\KlupBölümleriListesi.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\ÜyeListesi.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\ÜyeListesi.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\ÇalışanListesi.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\ÇalışanListesi.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\AktiviteListesi.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\AktiviteListesi.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\GolfKKayıt.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\GolfKKayıt.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\KlupBölümüKayıt.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\KlupBölümüKayıt.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\AktiviteKayıt.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\AktiviteKayıt.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\ÜyeKayıt.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\ÜyeKayıt.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\ÇalışanKayıt.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\ÇalışanKayıt.baml
+F:\Yeni klasör\56\56\obj\Debug\Models\SorguListesi.g.cs
+F:\Yeni klasör\56\56\obj\Debug\Models\SorguListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\bin\Debug\56.exe.config
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56.exe
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56.pdb
+F:\Uygulamalar(Hepsi)\56\56\bin\Debug\Database1.mdf
+F:\Uygulamalar(Hepsi)\56\56\bin\Debug\Database1_log.ldf
+F:\Uygulamalar(Hepsi)\56\56\bin\Debug\56.exe
+F:\Uygulamalar(Hepsi)\56\56\bin\Debug\56.pdb
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56.csprojResolveAssemblyReference.cache
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\MainWindow.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\AktiviteKayıt.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\AktiviteListesi.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\GolfKKayıt.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\GolfKlupleriListesi.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\KlupBölümleriListesi.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\KlupBölümüKayıt.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\SorguListesi.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÇalışanKayıt.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÇalışanListesi.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÜyeKayıt.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÜyeListesi.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\App.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56_Content.g.cs
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56_MarkupCompile.cache
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56_MarkupCompile.lref
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\MainWindow.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\AktiviteKayıt.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\AktiviteListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\GolfKKayıt.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\GolfKlupleriListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\KlupBölümleriListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\KlupBölümüKayıt.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\SorguListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÇalışanKayıt.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÇalışanListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÜyeKayıt.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\Models\ÜyeListesi.baml
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56.g.resources
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\_56.Properties.Resources.resources
+F:\Uygulamalar(Hepsi)\56\56\obj\Debug\56.csproj.GenerateResource.Cache

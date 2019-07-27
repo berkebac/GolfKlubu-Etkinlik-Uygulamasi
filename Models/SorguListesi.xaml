@@ -1,0 +1,40 @@
+﻿<Page x:Class="_56.Models.SorguListesi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_56.Models"
+      mc:Ignorable="d" 
+      d:DesignHeight="316.806" d:DesignWidth="480.672"
+      Title="SorguListesi">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="cmbsorgu" SelectionChanged="cmbsorgu_SelectionChanged" FontSize="16" FontWeight="Bold">
+            <ComboBoxItem Content="K Harfiyle başlıyan Golf Klupleri"/>
+            <ComboBoxItem Content="Kapasitesi 400'den Fazla Olan Golf Kluplerindeki Çalışanlar"/>
+            <ComboBoxItem Content="FAX numarası Girilmiş Kluplerin Üyeleri"/>
+            <ComboBoxItem Content="Yaş Sınırı 18 Olan Aktiviteler ve Yapıldığı Bölümler"/>
+
+        </ComboBox>
+
+        <DataGrid x:Name="dgList" Grid.Row="1" IsReadOnly="True">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="FontSize" Value="20"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF28AAAA"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+        </DataGrid>
+
+    </Grid>
+</Page>

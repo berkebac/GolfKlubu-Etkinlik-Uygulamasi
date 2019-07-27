@@ -1,0 +1,33 @@
+﻿<Page x:Class="_56.Models.KlupBölümüKayıt"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_56.Models"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="KlupBölümüKayıt">
+
+    <Grid Background="White">
+        <Border BorderBrush="LawnGreen" BorderThickness="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="30">
+            <StackPanel x:Name="sp" >
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Kulup Adı :" Width="100"/>
+                    <ComboBox Width="100" x:Name="cmbklupler" SelectedValuePath="Id" DisplayMemberPath="KulupAdı"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Bölüm Adı :" Width="100"/>
+                    <TextBox x:Name="tbbölümad" Width="100"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Yaş Sınırı :" Width="100"/>
+                    <TextBox x:Name="tbyaş" Width="100"/>
+                </StackPanel>
+                
+               
+                <Button Content="KAYIT" Width="100" Click="Button_Click" Margin="5"></Button>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Page>

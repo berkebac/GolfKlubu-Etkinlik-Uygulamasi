@@ -1,0 +1,35 @@
+﻿<Page x:Class="_56.Models.AktiviteListesi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_56.Models"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="AktiviteListesi">
+
+    <Grid>
+        <DataGrid x:Name="dgListele" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="FontSize" Value="20"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF28AAAA"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding KulupAdı}"  Header="Kulup Adı" />
+                <DataGridTextColumn Binding="{Binding BölümAdı}"  Header="Etkinlik" />
+                <DataGridTextColumn Binding="{Binding EtkinlikTarihi, StringFormat=\{0:d\}}" Header="Etkinlik Tarihi" />
+                <DataGridTextColumn Binding="{Binding Kapasite}" Header="Kapasite" />
+                <DataGridTextColumn Binding="{Binding YaşSınırı}" Header="Yaş Sınırı" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Page>

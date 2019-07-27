@@ -1,0 +1,34 @@
+﻿<Window x:Class="_56.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_56"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Listeler">
+                <MenuItem Header="Golf Kulupleri" Tag="GolfKlupleriListesi" Click="mi_Click"/>
+                <MenuItem Header="Klup Bölümleri" Tag="KlupBölümleriListesi" Click="mi_Click"/>
+                <MenuItem Header="Üye Listesi" Tag="ÜyeListesi" Click="mi_Click"/>
+                <MenuItem Header="Çalışan Listesi" Tag="ÇalışanListesi" Click="mi_Click"/>
+                <MenuItem Header="Aktivite Listesi" Tag="AktiviteListesi" Click="mi_Click"/>
+            </MenuItem>
+            <MenuItem Header="Yeni Kayıt">
+                <MenuItem Header="Golf K Kayıt" Tag="GolfKKayıt" Click="mi_Click"/>
+                <MenuItem Header="Üye Kayıt" Tag="ÜyeKayıt" Click="mi_Click"/>
+                <MenuItem Header="Çalışan Kayıt" Tag="ÇalışanKayıt" Click="mi_Click"/>
+                <MenuItem Header="Klup Bölümü Kayıt" Tag="KlupBölümüKayıt" Click="mi_Click"/>
+                <MenuItem Header="Aktivite Ekle" Tag="AktiviteKayıt" Click="mi_Click"/>
+            </MenuItem>
+            <MenuItem Header="Sorguya Göre List" Tag="SorguListesi" Click="mi_Click"/>
+        </Menu>
+        <Frame x:Name="frm" Grid.Row="1" Source="/56;component/Models/GolfKlupleriListesi.xaml" />
+      
+    </Grid>
+</Window>

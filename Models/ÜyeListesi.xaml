@@ -1,0 +1,38 @@
+﻿<Page x:Class="_56.Models.ÜyeListesi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_56.Models"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="ÜyeListesi">
+
+    <Grid Background="White">
+        <DataGrid x:Name="dgListele" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="FontSize" Value="20"></Setter>
+                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                    <Setter Property="Foreground" Value="Black"></Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF28AAAA"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding KulupAdı}"  Header="Kulup Adı" />
+                <DataGridTextColumn Binding="{Binding Ad}"  Header="Ad" />
+                <DataGridTextColumn Binding="{Binding Soyad}" Header="Soyad" />
+                <DataGridTextColumn Binding="{Binding KayıtTarihi, StringFormat=\{0:d\}}" Header="Kayıt Tarihi" />
+                <DataGridTextColumn Binding="{Binding Şehir}" Header="Şehir" />
+                <DataGridTextColumn Binding="{Binding Adres}" Header="Adres" />
+                <DataGridTextColumn Binding="{Binding Telefon}" Header="Telefon" />
+                <DataGridTextColumn Binding="{Binding MailAdresi}" Header="Mail Adresi" />
+                <DataGridTextColumn Binding="{Binding Cinsiyet}" Header="Cinsiyet" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
